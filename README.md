@@ -28,12 +28,18 @@ What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
+1) Read the input file having financial transactions, identify the involved entities and classify them under one of the categories like person, orgnisation, shell compnay, etc.
+2) Enrich entities informatiom from various data sources like: Open Sanctions, Offshore Leaks, Wikipedia, Corporates API database, etc.
+3) Calculate the risk scoring for each transaction considering various factors like transction amount, transaciton mode, entity risk factor like listed in the sanctions list or offshore leaks database or PEP list, etc.
+4) For each factor, weightage and risk score assinged and accordingly risk rate and level calculated
+5) All details gathered and derived are appended to the input file
+6) Finally key data elements are converted to json and output file is generated
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+1) Solution developed in Python using the NLP model provided in the Spacy libraries.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+1) Test data to simulate all use cases and to cover various data sources.   Few data sources like Coporate API and Open Sanctions are not providing the access to their sandbox environment so had tough time to prepare the test data to cover all scenarios.
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -50,10 +56,10 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Frontend: Not Applicable
+- 🔹 Backend: Not Applicable
+- 🔹 Database: Third party APIs, .csv
+- 🔹 Other: Python
 
 ## 👥 Team
 - **Your Name** - [GitHub](#) | [LinkedIn](#)

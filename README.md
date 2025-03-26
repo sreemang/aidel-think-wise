@@ -28,6 +28,11 @@ What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
+1) Read the financial transactions file for entites (like person, organisation)
+2) For each entity in the input file, enrich the data from various sources like: Wikipedia, ICIJ/Offshore Leaks, Sanctions database, Corporates API database,
+3) Classify the entity under one of the categories (Person, organisation, shell company, etc.)
+4) Perform a risk assessment based on various factors for each transaction (the factors like: transaction amount, transaction mode, entity risk score, etc.) and assign a risk score and level
+5) Generate an output with key information in Json format.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.

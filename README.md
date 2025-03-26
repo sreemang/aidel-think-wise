@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+AI Driven Entity Intelligence Risk Analysis - AI/ML powered solution to gather and enrich the infromation for identifyig, verifying and risk scoring of the entities involved in the finanical transactions 
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
